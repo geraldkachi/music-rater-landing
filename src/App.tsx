@@ -2,11 +2,15 @@ import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import Hero from './components/Hero'
+import Faq from './pages/Faq'
+import Price from './pages/Price'
 // import './App.css'
 const App = () => {
   return (
     <Routes>
       <Route index element={ <Hero />}  />
+      <Route path='price' element={ <Price />}  />
+      <Route path='faq' element={ <Faq />}  />
     </Routes>
   )
 }
