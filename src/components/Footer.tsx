@@ -12,7 +12,7 @@ const Footer = () => {
 
                 <ul className="flex items-center gap-12 uppercase text-xs">
                     <li className="cursor-pointer text-sm">
-                        <Link to="/">OR LISTENERS</Link>
+                        <Link to="/">For Listeners</Link>
                     </li>
                     <li className="cursor-pointer text-sm">
                         <Link to="/faq">FAQs</Link>
