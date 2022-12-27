@@ -29,7 +29,7 @@ function Accordion({
 
   return (
     <div
-      className={`relative bg-white rounded-lg max-w-3xl mb-4 ${
+      className={`relative bg-white rounded-lg max-w-3xl mx-auto mb-4  ${
         openAccordion ? activeClass : ""
       } ${otherClasses || ""}`}
     >

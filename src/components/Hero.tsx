@@ -17,7 +17,7 @@ const Hero = () => {
 
                             {/* <div className="flex gap-6">
                         </div> */}
-                            <button className="bg-[#3B71F7] shadow-md py-6 md:py-6 px-8 md:px-12 rounded-3xl text-white"> Upload your Music</button>
+                            <button className="bg-[#3B71F7] shadow-md py-4 md:py-6 px-8 md:px-12 rounded-3xl text-white"> Upload your Music</button>
                         </div>
                         {/* <!-- Image --> */}
                         <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
@@ -31,7 +31,7 @@ const Hero = () => {
 
                         <img src={HeroSvg} alt="HeroSvg" />
                     </div>
-                    <div className="bg-[rgba(84, 130, 248, 0.12)] backdrop-blur-[200px] w-full hidden py-5 xl:block fixed bottom-0">
+                    <div className="absolute bg-[rgba(84, 130, 248, 0.12)] backdrop-blur-[200px] w-full hidden py-5 lg:block fixed bottom-0 mx-5">
                         <div className="flex items-center justify-between gap-4 max-w-7xl mx-auto">
                             <div className='bg-[#c3cbdd38] backdrop-blur-[200px] py-8 px-20 rounded-2xl'></div>
                             <div className='bg-[#c3cbdd38] backdrop-blur-[200px] py-8 px-20 rounded-2xl'></div>
@@ -39,7 +39,7 @@ const Hero = () => {
                             <div className='bg-[#c3cbdd38] backdrop-blur-[200px] py-8 px-20 rounded-2xl'></div>
                             <div className='bg-[#c3cbdd38] backdrop-blur-[200px] py-8 px-20 rounded-2xl'></div>
                         </div>
-                </div>
+                    </div>
                 </section>
             </div>
         </div>
