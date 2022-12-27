@@ -23,26 +23,26 @@ const Faq = () => {
         </section>
       </div>
 
-      <div className="mt-8">
-        {Array(4)
-          .fill("")
-          .map((_, index) => (
-            <Accordion
-              key={`faq_${index}`}
-              heading={
-                <h1 className="font-semibold my-4 text-mainBlack text-lg">
-                  What is Music Rater?
-                </h1>
-              }
-            >
-              <p className="pb-4">
-                The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.
+        <div className="mt-20">
+          {Array(4)
+            .fill("")
+            .map((_, index) => (
+              <Accordion
+                key={`faq_${index}`}
+                heading={
+                  <h1 className="font-semibold my-4 text-mainBlack text-lg">
+                   What is Music Rater?
+                  </h1>
+                }
+              >
+                <p className="pb-4">
+                 The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.
                 </p>
               </Accordion>
-
-
-
-
+            ))}
+        </div>
+    </div>
+  )
 }
 
 export default Faq
