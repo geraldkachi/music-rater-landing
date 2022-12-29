@@ -3,6 +3,8 @@ import Question from "../assets/svg/question.svg"
 import Accordion from '../components/Accordion'
 import Navbar from '../components/Navbar'
 
+import Footer from "../components/Footer"
+
 
 const faqArr = [
   {
@@ -75,12 +77,14 @@ const Faq = () => {
 
         <div className="mt-2 mx-auto max-w-7xl my-10">
 
-<div className="mx-3">
+<div className="mx-5">
 
 <p className="text-[#02123B] font-extrabold text-lg md:text-3xl mb-4">Got any other questions?</p>
-<button className="bg-[#3B71F7] shadow-md py-6 md:py-6 px-8 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
+<button className="bg-[#3B71F7] shadow-md py-4 md:py-6 px-6 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
 </div>
 </div>
+
+    <Footer />
     </div>
   )
 }
