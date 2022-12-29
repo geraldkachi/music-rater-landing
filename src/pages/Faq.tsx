@@ -18,14 +18,14 @@ const Faq = () => {
             {/* <!-- Image --> */}
             <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
             {/* <div className=" justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 hidden lg:block"> */}
-              {/* <img className="" src={Question} alt="Question" /> */}
+              <img className="" src={Question} alt="Question" />
             </div>
           </div>
         </section>
       </div>
 
         <div className="mt-20">
-          {Array(4)
+          {Array(7)
             .fill("")
             .map((_, index) => (
               <Accordion
