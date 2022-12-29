@@ -72,7 +72,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <MicSvg className='flex flex-col items-center -right-1/4 md:left- lg:left-1/4  justify-end bottom-0 absolute' />
+                        <MicSvg className='flex flex-col items-center left-[-12%] md:left-[20%] lg:left-[28%] w-full justify-end bottom-0 absolute' />
                     </div>
                 </div>
             </div>
