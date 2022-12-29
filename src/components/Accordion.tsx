@@ -50,9 +50,9 @@ function Accordion({
             </span>
             <button type="button">
               {open || openAccordion ? (
-                <CollapseIcon color="#4D55BC" />
+                <CollapseIcon color="#3B71F7" />
               ) : (
-                <PlusIcon color="#4D55BC" />
+                <PlusIcon color="#3B71F7" />
               )}
             </button>
           </div>

@@ -17,11 +17,11 @@ const Hero = () => {
 
                             {/* <div className="flex gap-6">
                         </div> */}
-                            <button className="bg-[#3B71F7] shadow-md py-4 md:py-6 px-8 md:px-12 rounded-3xl text-white"> Upload your Music</button>
+                            <button className="bg-[#3B71F7] shadow-md py-4 md:py-6 px-8 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
                         </div>
                         {/* <!-- Image --> */}
                         <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-                            {/* <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src={HeroSvg} alt="" /> */}
+                            {/* <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full lg:bg-transparent lg:opacity-0" src={HeroSvg} alt="" /> */}
                             <img className="lg:bg-transparent lg:opacity-0" src={HeroSvg} alt="herosvg" />
                         </div>
                     </div>

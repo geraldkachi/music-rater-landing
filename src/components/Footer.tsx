@@ -10,17 +10,17 @@ const Footer = () => {
                     <p className='text-sm font-bold ml-5'>Copyright @ 2022</p>
                 </div>
 
-                <ul className="flex items-center gap-12 uppercase text-xs">
-                    <li className="cursor-pointer text-sm">
+                <ul className="flex items-center gap-4 text-sm my-4 text-[#666666]">
+                    <li className="cursor-pointer text-xs sm:text-sm">
                         <Link to="/">For Listeners</Link>
                     </li>
-                    <li className="cursor-pointer text-sm">
+                    <li className="cursor-pointer text-xs sm:text-sm">
                         <Link to="/faq">FAQs</Link>
                     </li>
-                    <li className="cursor-pointer text-sm">
+                    <li className="cursor-pointer text-xs sm:text-sm">
                         <Link to="/price">Terms &amp; Conditions</Link>
                     </li>
-                    <li className="cursor-pointer text-sm">
+                    <li className="cursor-pointer text-xs sm:text-sm">
                         <Link to="/privacy">Privacy Policy</Link>
                     </li>
                 </ul>
