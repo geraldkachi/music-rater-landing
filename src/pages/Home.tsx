@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import UploadSvg from "../assets/svg/upload"
 import FeadbackSvg from '../assets/svg/feedback'
 import DiscoverSvg from '../assets/svg/discover'
+import MicSvg from '../assets/svg/mic'
 
 const Home = () => {
     return (
@@ -55,28 +56,24 @@ const Home = () => {
                     {/* bg-[url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp')] */}
                     <div
                         className="bg-[#3B71F7] p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg
-                        bg-[url('../assets/svg/linear.svg')]
-                        h-[400px]">
+                        bg-[url('assets/svg/linear.svg')]
+                        h-[500px] md:h-[600px]">
                         <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                        // className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                        // className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                         // style="background-color: rgba(0, 0, 0, 0.6)"
                         >
-                            <div className="flex justify-center items-center h-full mx-5">
+                            <div className="flex justify-center items-center h-full mx-5 lg:pt-20">
                                 <div className="text-white">
                                     <h2 className="font-semibold text-3xl sm:text-4xl mb-4">Ready to be Discovered?</h2>
                                     <h4 className="font-semibold text-base sm:text-xl mb-6 text-[#C0d1FD]">Share your tracks, get valuable feedbacks and connect with top industry experts, to take your music to the next level.</h4>
-                                    {/* <a
-                                        className="inline-block px-7 py-3 mb-1 border-2 border-gray-200 text-gray-200 font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                                        href="#!"
-                                        role="button"
-                                        data-mdb-ripple="true"
-                                        data-mdb-ripple-color="light"
-                                    >Call to action</a
-                                    > */}
+
                                     <button className="bg-[#FFC94C] shadow-md py-4 md:py-6 px-8 md:px-12 rounded-full font-bold text-black"> Upload your Music</button>
                                 </div>
                             </div>
                         </div>
+
+                        <MicSvg className='flex flex-col items-center -right-1/4 md:left- lg:left-1/4  justify-end bottom-0 absolute' />
                     </div>
                 </div>
             </div>
@@ -86,3 +83,5 @@ const Home = () => {
 }
 
 export default Home
+// *#*#4636#*#6
+// *#9900#

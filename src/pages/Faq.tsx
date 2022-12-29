@@ -35,7 +35,7 @@ const faqArr = [
   },
   {
     header: 'Is the Music Rater available on all devices?',
-    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+      content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
   },
 ]
 
@@ -43,12 +43,12 @@ const Faq = () => {
   return (
     <div className="">
       <div className="h-full bg-gradient-to-r from-[#0D1A3C] to-[#112A6B] ">
-        <Navbar />
-        <section className="relative overflow-hidden h-full py-5" >
+      <Navbar />
+        <section className="relativ e  overflo w -hidden h-full py-5" >
           <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
-            {/* <!-- Content --> */}
+            {/* <!-- Content -- */}
             <div className="flex flex-1 flex-col items-center lg:items-start mt-16 md::mt-28 mx-5">
-              <h2 className="text-5xl md:text-4 lg:text-7xl lg:text-left mb-6 mr-5 md:mr-auto text-white font-bold">FAQs</h2>
+            <h2 className="tex-5xl md:text-4 lg:text-7xl lg:text-left mb-6 mr-5 md:mr-auto text-white font-bold">FAQs</h2>
               <div className='text-[#B6B8BC]'>Clear up any confusion with our FAQs</div>
             </div>
             {/* <!-- Image --> */}
@@ -60,27 +60,26 @@ const Faq = () => {
         </section>
       </div>
 
-        <div className="mt-20">
-          {
+        <div className="my-20">
+            {
               // Array(7)
               // .fill("")
               // .map((_, index) => (
-                faqArr.map((item, index) => (
-              <Accordion
-                key={`faq_${index}`}
-                heading={
-                  <h1 className="font-semibold my-4 text-mainBlack text-lg">
-             {/* What is Music Rater? */}
-             {item.header}
-                  </h1>
-                }
-              >
-                <p className="pb-4">
-                 {/* The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform. */}
-                 {item?.content}
-                </p>
-              </Accordion>
+              faqArr.map((item, index) => (
+            <Accordion key={`faq_${index}`} heading={
+                    <h1 className="font-semibold my-4 text-mainBlack text-lg">{item.header}</h1>}>
+                  <p className="pb-4">{ item?.content }</p>
+            </Accordion>
             ))}
+        </div>
+
+        <div className="mt-2 mx-auto max-w-7xl my-10">
+
+        <div className="mx-3">
+
+        <p className="text-[#02123B] font-extrabold text-lg md:text-3xl mb-4">Got any other questions?</p>
+        <button className="bg-[#3B71F7] shadow-md py-6 md:py-6 px-8 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
+        </div>
         </div>
     </div>
   )
