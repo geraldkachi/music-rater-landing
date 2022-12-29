@@ -60,7 +60,6 @@ const Home = () => {
                         h-[500px] md:h-[600px]">
                         <div
                         // className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                        // className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                         // style="background-color: rgba(0, 0, 0, 0.6)"
                         >
                             <div className="flex justify-center items-center h-full mx-5 lg:pt-20">

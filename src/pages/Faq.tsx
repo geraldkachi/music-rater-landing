@@ -46,7 +46,7 @@ const Faq = () => {
     <div className="">
       <div className="h-full bg-gradient-to-r from-[#0D1A3C] to-[#112A6B] ">
       <Navbar />
-        <section className="relative  overflow-hidden h-full py-5" >
+        <section className="relative overflow-hidden h-full py-5" >
           <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
             {/* <!-- Content -- */}
             <div className="flex flex-1 flex-col items-center lg:items-start mt-16 md::mt-28 mx-5">
@@ -69,18 +69,18 @@ const Faq = () => {
               // .map((_, index) => (
               faqArr.map((item, index) => (
             <Accordion key={`faq_${index}`} heading={
-                    <h1 className="font-semibold my-4 text-mainBlack text-lg">{item.header}</h1>}>
+                    <h1 className="font-semibold my-4 text-lg">{item.header}</h1>}>
                   <p className="pb-4">{ item?.content }</p>
             </Accordion>
             ))}
         </div>
 
-        <div className="mt-2 mx-auto max-w-7xl my-10">
+        <div className="mt-2 mx-auto max-w-4xl my-10">
 
 <div className="mx-5">
 
 <p className="text-[#02123B] font-extrabold text-lg md:text-3xl mb-4">Got any other questions?</p>
-<button className="bg-[#3B71F7] shadow-md py-4 md:py-6 px-6 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
+<button className="bg-[#3B71F7] shadow-md py-4 md:py-6 px-8 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
 </div>
 </div>
 
