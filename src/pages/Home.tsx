@@ -55,7 +55,7 @@ const Home = () => {
                     {/* card mic */}
                     {/* bg-[url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp')] */}
                     <div
-                        className="bg-[#3B71F7] p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg
+                        className="bg-[#3B71F7] p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-3xl
                         bg-[url('assets/svg/linear.svg')]
                         h-[500px] md:h-[600px]">
                         <div
