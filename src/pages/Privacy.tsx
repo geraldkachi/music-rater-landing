@@ -22,7 +22,7 @@ const Privacy = () => {
         </section>
       </div>
 
-      <div className='fixed bottom-0'>
+      <div className='fixed bottom-0 ' >
       <Footer />
       </div>
     </div>
