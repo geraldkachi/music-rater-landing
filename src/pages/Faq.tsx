@@ -3,6 +3,42 @@ import Question from "../assets/svg/question.svg"
 import Accordion from '../components/Accordion'
 import Navbar from '../components/Navbar'
 
+
+const faqArr = [
+  {
+    header: 'What is Music Rater?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'How do I register on the Platform?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'How does the rating system work?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'Can i  upload any type of song  on Music Rater?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'Do I get feedbacks from other artists on the platform?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'Is the Music Rater app free to use?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'Is the Music Rater available on all devices?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+  {
+    header: 'Is the Music Rater available on all devices?',
+    content: 'The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.'
+  },
+]
+
 const Faq = () => {
   return (
     <div className="">
@@ -25,19 +61,23 @@ const Faq = () => {
       </div>
 
         <div className="mt-20">
-          {Array(7)
-            .fill("")
-            .map((_, index) => (
+          {
+              // Array(7)
+              // .fill("")
+              // .map((_, index) => (
+                faqArr.map((item, index) => (
               <Accordion
                 key={`faq_${index}`}
                 heading={
                   <h1 className="font-semibold my-4 text-mainBlack text-lg">
-                   What is Music Rater?
+             {/* What is Music Rater? */}
+             {item.header}
                   </h1>
                 }
               >
                 <p className="pb-4">
-                 The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform.
+                 {/* The Music Rater app is a tool specifically designed for musicians to rate their own music and get  feedback from other musicians. It allows musicians to create a profile, upload their music, and receive  ratings and comments from other users on the platform. */}
+                 {item?.content}
                 </p>
               </Accordion>
             ))}
