@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 const Privacy = () => {
@@ -19,6 +20,10 @@ const Privacy = () => {
             </div>
           </div>
         </section>
+      </div>
+
+      <div className='fixed bottom-0'>
+      <Footer />
       </div>
     </div>
   )
