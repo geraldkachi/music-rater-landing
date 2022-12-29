@@ -44,16 +44,16 @@ const Faq = () => {
     <div className="">
       <div className="h-full bg-gradient-to-r from-[#0D1A3C] to-[#112A6B] ">
       <Navbar />
-        <section className="relativ e  overflo w -hidden h-full py-5" >
+        <section className="relative  overflow-hidden h-full py-5" >
           <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
             {/* <!-- Content -- */}
             <div className="flex flex-1 flex-col items-center lg:items-start mt-16 md::mt-28 mx-5">
-            <h2 className="tex-5xl md:text-4 lg:text-7xl lg:text-left mb-6 mr-5 md:mr-auto text-white font-bold">FAQs</h2>
+            <h2 className="text-5xl md:text-4 lg:text-7xl lg:text-left mb-6 mr-5 md:mr-auto text-white font-bold">FAQs</h2>
               <div className='text-[#B6B8BC]'>Clear up any confusion with our FAQs</div>
             </div>
             {/* <!-- Image --> */}
-            <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-            {/* <div className=" justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 hidden lg:block"> */}
+            {/* <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10"> */}
+            <div className=" justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10 hidden lg:block">
               <img className="" src={Question} alt="Question" />
             </div>
           </div>
@@ -75,12 +75,12 @@ const Faq = () => {
 
         <div className="mt-2 mx-auto max-w-7xl my-10">
 
-        <div className="mx-3">
+<div className="mx-3">
 
-        <p className="text-[#02123B] font-extrabold text-lg md:text-3xl mb-4">Got any other questions?</p>
-        <button className="bg-[#3B71F7] shadow-md py-6 md:py-6 px-8 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
-        </div>
-        </div>
+<p className="text-[#02123B] font-extrabold text-lg md:text-3xl mb-4">Got any other questions?</p>
+<button className="bg-[#3B71F7] shadow-md py-6 md:py-6 px-8 md:px-12 rounded-full font-bold text-white"> Upload your Music</button>
+</div>
+</div>
     </div>
   )
 }
